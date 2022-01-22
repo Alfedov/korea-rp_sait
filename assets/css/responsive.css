@@ -1,0 +1,49 @@
+@media(max-width:997px) {
+	BODY.mainer {
+		background: #153747 url(../img/bgMainEasy.jpg) no-repeat top center;
+	}
+	#header .col-md-3, #header .mainMenu, #header .login.right {
+		text-align: center;
+		float: none;
+	}
+	.say-1 p {
+		text-align: center;
+		padding-left: 0;
+	}
+	#online .col-md-6, #online .col-md-6.textright {
+		text-align: center;
+	}
+	.serverblock {
+		margin-top: 50px;
+	}
+	h1 {
+		font-size: 33px;
+	}
+	.step {
+		padding-left: 100px;
+	}
+	.step-1, .step-2, .step-3 {
+		width: 300px;
+	}
+	.step h2 + p {
+		font-size: 18px;
+	}
+	.step h2 {
+		font-size: 30px;
+	}
+	.step-3 {
+		padding: 0;
+		margin: 50px auto 0;
+		left: 0;
+	}
+	.step-3 p {
+		font-size: 16px;
+		font-weight: 400;
+	}
+	#footer .col-md-6 {
+		text-align: center;
+	}
+	#footer .col-md-6:nth-child(2) p:first-child {
+		margin-top:30px;
+	}
+}
