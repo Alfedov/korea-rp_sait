@@ -67,6 +67,10 @@ a>* {
 .play i {
 	border-radius: 50%;
 	background: #fff337 url(../img/play.png) no-repeat 34px center;
+	background: rgb(156, 0, 255);
+	background: -moz-linear-gradient(90deg, rgba(156, 0, 255, 1) 0%, rgba(227, 0, 235, 1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(156, 0, 255, 1) 0%, rgba(227, 0, 235, 1) 100%);
+	background: linear-gradient(90deg, rgba(156, 0, 255, 1) 0%, rgba(227, 0, 235, 1) 100%);
 	display: block;
 	float: left;
 	width: 94px;
@@ -102,11 +106,11 @@ a>* {
 }
 .login {
 	display: inline-block;
-	padding: 20px 24px 20px 60px;
-	background: #fff337 url(../img/key.png) no-repeat 27px center;
-	color: #2c4b59;
+	padding: 20px 37px 20px 32px;
+	background: rgb(156, 0, 255);
+	color: white;
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: bold;
 	border-radius: 300px;
 	position: relative;
 	z-index: 10;
@@ -640,7 +644,7 @@ h1.title {
 }
 .blockTitle {
 	font-family: 'Intro', sans-serif;
-	color: #fff50b;
+	color: #b825ff;
 	font-size: 16px;
 	padding: 10px;
 }
@@ -764,7 +768,7 @@ h1.title {
 	font-weight: 800;
 }
 .labler {
-	color: #fff337;
+	color: #b825ff;
 	font-weight: 400;
 	font-size: 22px;
 	display: block;
@@ -801,13 +805,13 @@ input[type="text"]:focus {
 	outline: none;
 }
 .newpass {
-	color: #143748;
+	color: white;
 	font-size: 18px;
 	padding: 10px;
 	border-radius: 4px;
-	background: #fff337;
+	background: rgb(156, 0, 255);
 	font-family: 'Blogger Sans';
-	font-weight: 400;
+	font-weight: bold;
 	text-transform: normal;
 }
 .newpass.yellowShadowBlck:hover {
@@ -900,7 +904,7 @@ input[type="text"]:focus {
 	opacity: 1;
 }
 .changer.active .name {
-	color: #fff237;
+	color: #b825ff;
 	transition: all 0.5s easy-in-out;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;

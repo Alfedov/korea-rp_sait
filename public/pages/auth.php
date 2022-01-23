@@ -11,9 +11,9 @@
                         <input id='inp-nickname' class='allInp' name="login" type='text' required><i class="fa fa-id-card-o" aria-hidden="true"></i>
                         <label for='inp-password' class='labler yellowShadowText'>Пароль</label>
                         <input id='inp-password' class='allInp' name="password" type='password' required><i class="fa fa-hashtag" aria-hidden="true"></i>
-                        <label for='inp-code' class='labler yellowShadowText'>Введите код с картинки</label>
+                        <!--label for='inp-code' class='labler yellowShadowText'>Введите код с картинки</label>
                         <div class='captcher'><img src="/captcha" width="50" alt="Captcha" /></div>
-                        <input id='inp-code' class='allInp' name="captcha" type='text' required><i class="fa fa-braille" aria-hidden="true"></i> </div>
+                        <input id='inp-code' class='allInp' name="captcha" type='text' required><i class="fa fa-braille" aria-hidden="true"></i> </div-->
                 </div>
                 <div class='row'>
                     <div class='col-xs-10 col-xs-offset-1 textcenter padd30'>

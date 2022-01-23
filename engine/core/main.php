@@ -140,18 +140,15 @@ else {
         }
         case 'auth':{
             if($user->isAuthorized()) header("Location: /account");
-            if(isset($_POST['login']) && isset($_POST['password']) && isset($_POST['captcha'])){
-                $captcha = $_POST['captcha'];
+            if(isset($_POST['login']) && isset($_POST['password'])){
                 $login = $_POST['login'];
                 is_scalar($_POST['password']) ? $password = md5($_POST['password']) : $password = null;
                 $server = $_POST['server'];
-                if(!empty($login) && !empty($password) && !empty($captcha)){
-                    if($server == null || empty($server) || is_array($server) || $func->servers[ucfirst($server)] == null){
-                        $func->setPopUp("error","Ошибка","Вы не указали сервер!");
-                    }elseif($_SESSION['rand_code'] == null || empty($_SESSION['rand_code']) || $captcha != $_SESSION['rand_code']){
-                        $func->setPopUp("error","Ошибка","Указан неверный код с картинки!");
+                if(!empty($login) && !empty($password)){
+                    if($server == null || empty($server) || is_array($server) || $func->servers[ucfirst($server)] == null) {
+                        $func->setPopUp("error", "Ошибка", "Вы не указали сервер!");
                     }else{
-                        $userka = $user->authorizeUser($login,$password,$server,$_POST['pin']);
+                        $userka = $user->authorizeUser($login,$password,$server);
                         if(!$userka){
                             $func->setPopUp("error","Ошибка","Неверная комбинация ника и пароля!");
                         }else{

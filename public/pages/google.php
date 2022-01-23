@@ -24,7 +24,7 @@
                     <div class='darkBlock wow fadeIn'>
                         <div class='row'>
                             <div class='col-md-3'>
-                                <img src='<?php echo $ga->getQRCodeGoogleUrl($user->player[$tableconf['TABLE_NAME']],$_SESSION['ga_secret'],'grand-rp.ru');?>'>
+                                <img src='<?php echo $ga->getQRCodeGoogleUrl($user->player[$tableconf['TABLE_NAME']],$_SESSION['ga_secret'],'korea-rp.loc');?>'>
                             </div>
                             <div class='col-md-9'>
                                 При помощи приложения Google Authenticator отсканируйте QR-код расположенный слева(используя камеру вашего мобильного телефона).

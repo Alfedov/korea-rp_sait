@@ -1,5 +1,5 @@
 
-<title>Карта штата Grand Role Play</title>
+<title>Карта штата Korea Role Play</title>
 <script src="/assets/js/SanMap.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjhHFrWO_cOqBUQVXXLB3IbsF4-Idqi2s"></script>
 <section class="page_main" style="margin: 0px 0px;position:fixed;top: 0px; left: 0px; width: 100%; height: 100%;z-index: 10;">

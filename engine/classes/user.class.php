@@ -117,12 +117,12 @@ class user{
      * Авторизация пользователя на сайте
      * Идёт генерация токена для безопасности
      */
-    public function authorizeUser($login, $password, $server,$secpass){
+    public function authorizeUser($login, $password, $server){
         global $tableconf, $func;
         $this->tryConnect($server);
         $login = $func->clearQuery($this->conn,$login);
         $password = $func->clearQuery($this->conn,$password);
-        $secpass = $func->clearQuery($this->conn,$secpass);
+        //$secpass = $func->clearQuery($this->conn);
         $user = $this->conn->query("SELECT * FROM ".$this->servers[$server]["MYSQL_TABLE"]." WHERE `".$tableconf['TABLE_NAME']."` = '".$login."'; ")->fetch_assoc();
         if($user != null && $password == $user[$tableconf['TABLE_PASSWORD']]) {
             $this->logUser($login, $server);

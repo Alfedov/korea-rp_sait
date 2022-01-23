@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b312e951-7f8a-448d-a795-b9358cc44e88" name="Changes" comment="" />
+    <list default="true" id="b312e951-7f8a-448d-a795-b9358cc44e88" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/classes/user.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/engine/classes/user.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/engine/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/core/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/engine/core/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pages/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pages/google.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/google.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pages/map.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/pages/map.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +20,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="243anFSRfQJP6sEk26UGgQdD9of" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642861889045</updated>
       <workItem from="1642861890299" duration="1344000" />
-      <workItem from="1642877030859" duration="1126000" />
+      <workItem from="1642877030859" duration="5210000" />
     </task>
     <servers />
   </component>

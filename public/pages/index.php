@@ -93,7 +93,7 @@
                                 <div class="money"><i class="fa fa-money yellowShadowText" aria-hidden="true"></i> <?php echo $user->player[$tableconf['TABLE_DONATE']]; ?> <sup>руб.</sup></div>
                             </div>
                             <?php else: ?>
-                            <a href='/account/' class='login yellowShadow right animated wow fadeInRight wait-2'>Личный кабинет</a></div>
+                            <a href='/account/' class='login yellowShadow right animated wow fadeInRight wait-2'><i class="fa fa-key" aria-hidden="true"></i> Личный кабинет</a></div>
                             <?php endif;?>
                     </div>
                 </div>
